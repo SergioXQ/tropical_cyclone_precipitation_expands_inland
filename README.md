@@ -5,7 +5,7 @@ Contributors: Qian Xiang, De-Hui Ouyang, Deng-xin He
 This repository contains codes and data used for precipitation, tropical cyclone, and exposure analyses related to the manuscript. It is organized into separate directories for scripts, key datasets, and processed results.
 Note: ERA5 and CMIP6 datasets, which are open access climate data, are not included here. Their sources are described in the Data Availability section of the manuscript.
 
-Repository Structure
+## Repository Structure
 
 codes/
 Contains Python scripts and notebooks used for data processing, calculations, and figure generation.
@@ -37,6 +37,6 @@ This dataset is publicly available on Zenodo:
 ## How to use
 Please download the dataset and extract the key_data/ folder into the same directory containing codes/
 
-Tips to Avoid Confusion
+## Tips to Avoid Confusion
 1. In the original dataset, offshore distance over the ocean is positive and over land is negative. For clarity in the main text, this sign convention is reversed (multiplied by -1).
 2. In certain tropical cyclone–related datasets, the North Atlantic (NA) basin was mistakenly exported as NaN values. However, since basin indices are not used in calculations, this does not affect any results.
