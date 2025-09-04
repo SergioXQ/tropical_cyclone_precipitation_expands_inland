@@ -7,27 +7,29 @@ Note: ERA5 and CMIP6 datasets, which are open access climate data, are not inclu
 
 ## Repository Structure
 
-codes/
-Contains Python scripts and notebooks used for data processing, calculations, and figure generation.
-	1.	py_for_calculate/
-	•	calculate_rain_dist2land/: Scripts for calculating precipitation at different landmass thresholds.
-	•	cacu_rain.py: Counts the frequency of heavy rainfall (≥ 30 mm) within each grid.
-	•	city_exposure_0.1.py: Calculates exposure levels using the urban ratio and rainfall frequency.
-	•	fig2_cal.py: Code for reproducing CMIP6-related calculations for Figure 2.
-	•	transfer_utf8.py: Adjusts grid coordinates.
-	2.	figs.ipynb: Generates the main figures.
-	3.	extended.ipynb: Generates the extended data figures.
+- **codes/**  
+  Contains Python scripts and notebooks used for data processing, calculations, and figure generation.
+  
+  1. **py_for_calculate/**  
+     - calculate_rain_dist2land/: Scripts for calculating precipitation at different landmass thresholds.  
+     - cacu_rain.py: Counts the frequency of heavy rainfall (≥ 30 mm) within each grid.  
+     - city_exposure_0.1.py: Calculates exposure levels using the urban ratio and rainfall frequency.  
+     - fig2_cal.py: Code for reproducing CMIP6-related calculations for Figure 2.  
+     - transfer_utf8.py: Adjusts grid coordinates.  
+  2. **figs.ipynb**: Generates the main figures.  
+  3. **extended.ipynb**: Generates the extended data figures.
 
-key_data/
-Contains core datasets required for calculation and validation. Subfolders include:
-	1.	0.1rain_V2/: Urban exposure maps and exposure–landward trend maps for the study areas.
-	2.	aftertreatment/: CSV files after data cleaning and adding distance-to-land information.
-	3.	City/: Grid-based city ratio results for different years, along with average city ratios and weighted offshore distances for each of the three study areas.
-	4.	dist2land_files/: Distance-to-land datasets.
-	5.	exposure_0yu_0.1/: Exposure weights by distance from the shore in the three study areas.
-	6.	flood/: Information on flood centers caused by typhoons, filtered with DFO data.
-	7.	wrf_out/: Model output from WRF simulations.
-
+- **key_data/**  
+  Contains core datasets required for calculation and validation. Subfolders include:
+  
+  1. **0.1rain_V2/**: Urban exposure maps and exposure–landward trend maps for the study areas.  
+  2. **aftertreatment/**: CSV files after data cleaning and adding distance-to-land information.  
+  3. **City/**: Grid-based city ratio results for different years, along with average city ratios and weighted offshore distances for each of the three study areas.  
+  4. **dist2land_files/**: Distance-to-land datasets.  
+  5. **exposure_0yu_0.1/**: Exposure weights by distance from the shore in the three study areas.  
+  6. **flood/**: Information on flood centers caused by typhoons, filtered with DFO data.  
+  7. **wrf_out/**: Model output from WRF simulations.
+     
 ## Full Dataset (Zenodo)
 
 This dataset is publicly available on Zenodo:
