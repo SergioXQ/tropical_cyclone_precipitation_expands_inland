@@ -29,15 +29,47 @@ Note: ERA5 and CMIP6 datasets, which are open access climate data, are not inclu
   5. **exposure_0yu_0.1/**: Exposure weights by distance from the shore in the three study areas.  
   6. **flood/**: Information on flood centers caused by typhoons, filtered with DFO data.  
   7. **wrf_out/**: Model output from WRF simulations.
-     
-## Full Dataset (Zenodo)
 
-This dataset is publicly available on Zenodo:
 
-**DOI:** [10.5281/zenodo.17048203](https://doi.org/10.5281/zenodo.17048203)
+## System Requirements
+- **Python versions tested:** 3.8, 3.11  
+- **Operating systems tested:** Ubuntu, macOS  
+- **Dependencies:**  
+  📦 os  
+  📦 pandas  
+  📦 numpy  
+  📦 xarray  
+  📦 geopandas  
+  📦 seaborn  
+  📦 matplotlib  
+  📦 cartopy  
+  📦 scipy  
+  📦 shapely  
+  📦 netCDF4  
+  📦 pathlib  
+
+---
+
+## Installation Guide
+
+1. Clone the repository and download the example data from **Zenodo**:  
+   [10.5281/zenodo.17048203](https://doi.org/10.5281/zenodo.17048203)
+
+2. Place the `codes/` folder and the `key_data/` (or subset folders such as `coastal_rainfall/` and `reanalysis/`) in the **same directory**.
 
 ## How to use
-Please download the dataset and extract the key_data/ folder into the same directory containing codes/
+Please download the dataset and extract the data/ folder into the same directory containing codes/
+	•	Open figs.ipynb or extended.ipynb in Jupyter Notebook.
+	•	Run the code blocks sequentially.
+	•	Most code blocks finish within 1 minute on a normal desktop computer.
+
+## Notes on Data
+	•	Due to the large size of the raw data, we provide only partial subsets as examples:
+	•	Figure 1 (d–f): only the WNA region data is provided (coastal_rainfall/).
+	•	Extended Data Fig. 4 (a–c): only the WNA region reanalysis data is provided (reanalysis/).
+	•	All other scripts and notebooks are fully reproducible with the provided datasets.
+	•	For complete replication, download the full dataset from Zenodo. If the full download is too large for your network, you may selectively download only the required subfolders for verification.
+
 
 ## Tips to Avoid Confusion
 1. In the original dataset, offshore distance over the ocean is positive and over land is negative. For clarity in the main text, this sign convention is reversed (multiplied by -1).
