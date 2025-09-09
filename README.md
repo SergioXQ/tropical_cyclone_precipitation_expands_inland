@@ -19,7 +19,7 @@ Note: ERA5 and CMIP6 datasets, which are open access climate data, are not inclu
   2. **figs.ipynb**: Generates the main figures.  
   3. **extended.ipynb**: Generates the extended data figures.
 
-- **key_data/**  
+- **data/**  
   Contains core datasets required for calculation and validation. Subfolders include:
   
   1. **0.1rain_V2/**: Urban exposure maps and exposure–landward trend maps for the study areas.  
@@ -49,13 +49,22 @@ Note: ERA5 and CMIP6 datasets, which are open access climate data, are not inclu
   📦 pathlib  
 
 ---
-
 ## Installation Guide
 
-1. Clone the repository and download the example data from **Zenodo**:  
+1. Clone the repository from GitHub.  
+
+2. Download the dataset (split into subfolders due to the large size of the original archive) from **Zenodo**:  
    [10.5281/zenodo.17048203](https://doi.org/10.5281/zenodo.17048203)
 
-2. Place the `codes/` folder and the `data/` in the **same directory**.
+3. In the same parent directory as `codes/`, create a new folder named `data/`.  
+
+4. Extract the downloaded archive(s) into the `data/` folder. The final structure should look like:  
+project_root/
+├── codes/
+└── data/
+	├── 0.1rain_V2/
+	├── aftertreatment/
+	└── …
 
 ## How to use
 Please download the dataset and extract the data/ folder into the same directory containing codes/
