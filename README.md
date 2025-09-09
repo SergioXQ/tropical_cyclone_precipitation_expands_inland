@@ -64,18 +64,18 @@ Note: ERA5 and CMIP6 datasets, which are open access climate data, are not inclu
 3. In the same parent directory as `codes/`, create a new folder named `data/`.  
 
 4. Extract the downloaded archive(s) into the `data/` folder. The final structure should look like:  
-	project_root/
-	├── codes/
-	└── data/
-		├── 0.1rain_V2/
-		├── aftertreatment/
-		└── …
+	project_root/  
+	├── codes/  
+	└── data/  
+		├── 0.1rain_V2/  
+		├── aftertreatment/  
+		└── …  
 
 ## How to use
-Please download the dataset and extract the data/ folder into the same directory containing codes/
-	•	Open figs.ipynb or extended.ipynb in Jupyter Notebook.
-	•	Run the code blocks sequentially.
-	•	Most code blocks finish within 1 minute on a normal desktop computer.
+Please download the dataset and extract the data/ folder into the same directory containing codes/  
+	•	Open figs.ipynb or extended.ipynb in Jupyter Notebook.  
+	•	Run the code blocks sequentially.  
+	•	Most code blocks finish within 1 minute on a normal desktop computer.  
 
 ## Notes on Data
 	•	Due to the large size of the raw data, we provide only partial subsets as examples:
