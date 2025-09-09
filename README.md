@@ -1,6 +1,6 @@
 Tropical Cyclone Precipitation Expands Inland
 
-Contributors: Qian Xiang, De-Hui Ouyang, Deng-xin He
+Contributors: Qian Xiang, De-Hui Ouyang, Dengxin He
 
 This repository contains codes and data used for precipitation, tropical cyclone, and exposure analyses related to the manuscript. It is organized into separate directories for scripts, key datasets, and processed results.
 Note: ERA5 and CMIP6 datasets, which are open access climate data, are not included here. Their sources are described in the Data Availability section of the manuscript.
