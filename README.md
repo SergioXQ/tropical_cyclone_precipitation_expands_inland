@@ -67,9 +67,9 @@ Note: ERA5 and CMIP6 datasets, which are open access climate data, are not inclu
 	project_root/  
 	├── codes/  
 	└── data/  
-		├── 0.1rain_V2/  
-		├── aftertreatment/  
-		└── …  
+        ├── 0.1rain_V2/
+        ├── aftertreatment/
+        └── …  
 
 ## How to use
 Please download the dataset and extract the data/ folder into the same directory containing codes/  
