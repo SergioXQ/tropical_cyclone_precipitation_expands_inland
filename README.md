@@ -55,7 +55,7 @@ Note: ERA5 and CMIP6 datasets, which are open access climate data, are not inclu
 1. Clone the repository and download the example data from **Zenodo**:  
    [10.5281/zenodo.17048203](https://doi.org/10.5281/zenodo.17048203)
 
-2. Place the `codes/` folder and the `key_data/` (or subset folders such as `coastal_rainfall/` and `reanalysis/`) in the **same directory**.
+2. Place the `codes/` folder and the `data/` in the **same directory**.
 
 ## How to use
 Please download the dataset and extract the data/ folder into the same directory containing codes/
