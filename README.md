@@ -24,11 +24,16 @@ Note: ERA5 and CMIP6 datasets, which are open access climate data, are not inclu
   
   1. **0.1rain_V2/**: Urban exposure maps and exposure–landward trend maps for the study areas.  
   2. **aftertreatment/**: CSV files after data cleaning and adding distance-to-land information.  
-  3. **City/**: Grid-based city ratio results for different years, along with average city ratios and weighted offshore distances for each of the three study areas.  
-  4. **dist2land_files/**: Distance-to-land datasets.  
-  5. **exposure_0yu_0.1/**: Exposure weights by distance from the shore in the three study areas.  
-  6. **flood/**: Information on flood centers caused by typhoons, filtered with DFO data.  
-  7. **wrf_out/**: Model output from WRF simulations.
+  3. **City/**: Grid-based city ratio results for different years, along with average city ratios and weighted offshore distances for each of the three study areas.
+  4. **CMIP6/**：Trend results from CMIP6 models.
+  5. **dist2land_files/**: Distance-to-land datasets.  
+  6. **exposure_0yu_0.1/**: Exposure weights by distance from the shore in the three study areas.
+  7. **flood/**: Information on flood centers caused by typhoons, filtered with DFO data.  
+  8. **gshhg-shp-2/**: Global coastline dataset.
+  9. **reanalysis/**: Reanalysis data from ERA5 and MERRA-2
+  10. **shp/**: Shp files for calculation.
+  11. **tc_track/**: IBTrACS dataset.
+  12. **wrf_out/**: Model output from WRF simulations.
 
 
 ## System Requirements
