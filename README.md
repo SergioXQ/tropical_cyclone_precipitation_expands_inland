@@ -64,12 +64,12 @@ Note: ERA5 and CMIP6 datasets, which are open access climate data, are not inclu
 3. In the same parent directory as `codes/`, create a new folder named `data/`.  
 
 4. Extract the downloaded archive(s) into the `data/` folder. The final structure should look like:  
-	project_root/  
-	├── codes/  
-	└── data/  
-        ├── 0.1rain_V2/
-        ├── aftertreatment/
-        └── …  
+	>project_root/  
+	>├── codes/  
+	>└── data/  
+    >>├── 0.1rain_V2/  
+    >>├── aftertreatment/  
+    >>└── …  
 
 ## How to use
 Please download the dataset and extract the data/ folder into the same directory containing codes/  
