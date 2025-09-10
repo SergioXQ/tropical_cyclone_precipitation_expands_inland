@@ -59,7 +59,7 @@ Note: ERA5 and CMIP6 datasets, which are open access climate data, are not inclu
 1. Clone the repository from GitHub.  
 
 2. Download the dataset (split into subfolders due to the large size of the original archive) from **Zenodo**:  
-   [10.5281/zenodo.17048203](https://doi.org/10.5281/zenodo.17048203)
+   [10.5281/zenodo.17048203 Version 2](https://zenodo.org/records/17084534)
 
 3. In the same parent directory as `codes/`, create a new folder named `data/`.  
 
